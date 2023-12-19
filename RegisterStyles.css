@@ -1,0 +1,128 @@
+body{
+    justify-content: center;
+    color: rgb(30, 30, 71);
+    font-family: monospace;
+    align-items: center;
+    background-image: url("https://images8.alphacoders.com/133/1331544.png");
+    background-repeat: no-repeat;
+    background-size: 100% 630px;
+}
+
+.boxA{
+    background: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255), 
+        rgb(210, 217, 223)
+    );
+    border: 3px solid linear-gradient(
+        to bottom,
+        rgb(255, 255, 255), 
+        rgb(176, 194, 209)
+    );
+    border-radius: 8px;
+    font-size: 25px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    width: 650px;
+    height: 75vh;
+    margin-top: 70px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+.miniBoxA{
+    background: linear-gradient(
+        to bottom,
+        rgb(76, 176, 243), 
+        rgb(112, 146, 241),
+        rgba(19,38,78,255)
+    );
+    background-repeat: no-repeat;
+    justify-content: center;
+    border: 3px solid transparent;
+    border-radius: 25px;
+    margin: 10px 308px;
+    width: 335px;
+    height: 444px;
+    padding-top: 3.5%;
+}
+
+.miniBoxA input{
+    width: 200px;
+    height: 30px;
+    margin: 10px -50px;
+    cursor: pointer;
+    border: 6px solid transparent;
+    border-radius: 25px;
+    padding: 0px 25px 0px 25px;
+    font-size: 15px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.miniBoxA button{
+    width: 260px;
+    height: 40px;
+    margin: 10px 0px;
+    cursor: pointer;
+    border: 6px solid transparent;
+    border-radius: 30px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.miniBoxB{ /* ALREADY HAVE AN ACCOUNT? -- sign*/
+    width: 250px;
+    height: 100px;
+    margin: -350px 32px;
+    background-color: transparent;
+}
+
+.miniBoxC{
+    width: 250px;
+    height: 50px;
+    margin: 345px 30px;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.miniBoxC button{
+    width: 260px;
+    height: 40px;
+    margin: -5px -10px;
+    cursor: pointer;
+    border: 6px solid transparent;
+    border-radius: 30px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+    background-color:rgb(150, 187, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.miniBoxA button:hover{
+    transition: .2s;
+    transform: scale(1.03);
+}
+
+.miniBoxC button:hover{
+    transition: .2s;
+    transform: scale(1.03);
+}
+
+#inputButton{
+    width: 265px;
+    height: 45px;
+    margin: 10px 20px;
+    cursor: pointer;
+    border: 6px solid transparent;
+    border-radius: 25px;
+    padding: 5px 15px 0px 15px;
+    font-size: 15px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+#inputButton:hover{
+    transition: .2s;
+    transform: scale(1.03);
+}
